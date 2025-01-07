@@ -1,14 +1,51 @@
-nav{
-    display: flex;
-    justify-content: space-between;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* font-family: "Open Sans", serif; */
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-primary{
+    color: #fd6e0a;
 }
 
-nav >ul{
-    list-style: none;
-    
-    display: flex;
+.btn-primary{
+    background-color: tomato;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: whitesmoke;
 }
 
-li a{
-    text-decoration: none;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
 }
