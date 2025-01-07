@@ -24,14 +24,15 @@
     padding: 20px 30px;
     border-radius: 5px;
     font-size: 20px;
-    border-color: whitesmoke;
+    /* border-color: whitesmoke;' */
+    border: none;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 200px;
+  margin: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -48,4 +49,47 @@ li a {
   text-decoration: none;
   color: gray;
   font-size: 20px;
+}
+
+
+.banner-greetings{
+    color: grey;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 80px;
+    margin: 20px 0px;
+
+}
+
+.banner-description{
+    margin-bottom: 20px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px 0 200px;
+    /* gap: 50px; */
+}
+
+.banner-profile-pic{
+    width: 580px;
+}
+/* .banner-content > button{
+    margin: 0 20px;
+} */
+.banner-content{
+    max-width:580px ;
+}
+
+
+.header{
+    background-image: url("/images/developer.png"),url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:top left,bottom right;
 }
