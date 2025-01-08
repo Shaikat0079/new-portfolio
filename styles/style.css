@@ -166,3 +166,35 @@ main section{
     align-items: center;
     margin: 50px 0;
 }
+.section-title{
+    text-align: center;
+    margin: 50px 0;
+}
+
+footer{
+    display: flex;
+    align-items: start;
+    padding: 130px 230px;
+    gap: 100px;
+}
+
+footer .section-title{
+    text-align: left;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border: none;
+    font-size: 20px;
+}
+
